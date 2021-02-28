@@ -47,4 +47,9 @@ else:
 2. The string is passed as an argument to a function.
 3. In the function, two sets are formed- one for all lower case letters and one for the letters in the string.
 4. The two sets are subtracted and if it is an empty set, the string is a pangram.
-6. The final result is printed.
+6. The final result is printed. 
+
+
+## **Isogram**
+An isogram (also known as a "nonpattern word"), is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.
+ 
