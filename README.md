@@ -53,3 +53,32 @@ else:
 ## **Isogram**
 An isogram (also known as a "nonpattern word"), is a word or phrase without a repeating letter, however spaces and hyphens are allowed to appear multiple times.
  
+ 
+### **Algorithm** 
+
+Making a function
+We need to use if statement to count if there's more than one item in our string!
+we need to loop over if statement to check every item in our string!.
+
+
+### **Solution** 
+
+~~~python
+def is_isogram(word): 
+  
+    # Convert the word or sentence in lower case letters. 
+    clean_word = word.lower() 
+  
+    # Make an empty list to append unique letters 
+    letter_list = [] 
+  
+    for letter in clean_word: 
+  
+        # If letter is an alphabet then only check 
+        if letter.isalpha(): 
+            if letter in letter_list: 
+                return False
+            letter_list.append(letter) 
+  
+    return True
+    ~~~
