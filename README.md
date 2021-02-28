@@ -1,7 +1,7 @@
 # **Intermediate Programming Challenges.**
 
 
-#### **1). pangram**
+## **1). pangram**
 A pangram is a unique sentence in which every letter of the alphabet is used at least once. The name comes from the Greek root words pan, meaning “all,” and gram, meaning “something written or recorded”.  
 
 ### **Problem Description**
